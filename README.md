@@ -7,5 +7,5 @@
 4. Shopping Cart
 5. Manage Product
 
-Live: [Create React App](https://book-shop-a75e5.web.app/).
+Live: [Paperback Store](https://book-shop-a75e5.web.app/).
 
