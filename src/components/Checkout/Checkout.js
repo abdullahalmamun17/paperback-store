@@ -12,7 +12,7 @@ const Checkout = () => {
     const [quantity, setQuantity] = useState(1)
 
     useEffect(() => {
-        fetch('http://localhost:5000/books')
+        fetch('https://paperback-bookstore.herokuapp.com/books')
             .then(res => res.json())
             .then(data => setBooks(data))
 

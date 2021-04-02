@@ -6,7 +6,7 @@ const BookDetails = props => {
     const { _id, name, author, price } = props.book
 
     const deleteBook = id => {
-        fetch(`http://localhost:5000/delete/${id}`, {
+        fetch(`https://paperback-bookstore.herokuapp.com/delete/${id}`, {
             method: 'DELETE'
         })
         .then(res => res.json())

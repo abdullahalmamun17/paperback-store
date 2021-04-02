@@ -19,7 +19,7 @@ const AddProduct = () => {
             description: data.description
         }
 
-        fetch('http://localhost:5000/addBook', {
+        fetch('https://paperback-bookstore.herokuapp.com/addBook', {
             method: 'POST',
             body: JSON.stringify(bookData),
             headers: {
