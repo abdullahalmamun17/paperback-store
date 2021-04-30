@@ -1,6 +1,6 @@
 # Project Name: `Paperback Store`
 
-# [Paperback Store Live: ](https://book-shop-a75e5.web.app/)
+# [Paperback Store Live](https://book-shop-a75e5.web.app/)
 
 # Project Description
 
