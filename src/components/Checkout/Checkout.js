@@ -47,7 +47,7 @@ const Checkout = () => {
         }
 
 
-        fetch('http://localhost:5000/checkout', {
+        fetch('https://paperback-bookstore.herokuapp.com/checkout', {
             method: 'POST',
             body: JSON.stringify(orderData),
             headers: {
